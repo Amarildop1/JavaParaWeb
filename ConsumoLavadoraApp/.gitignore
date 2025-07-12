@@ -1,0 +1,44 @@
+# NetBeans
+/nbproject/private/
+/build/
+/dist/
+nbbuild/
+nbdist/
+.nb-gradle/
+.nb-gradle-properties/
+
+# Maven
+/target/
+pom.xml.tag
+pom.xml.versions
+pom.xml.backup
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+/build/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.idea/ # Para IntelliJ IDEA
+
+# Logs
+*.log
+
+# Arquivos temporários e de sistema
+*.tmp
+*.temp
+*.bak
+*~.nib
+*.swp
+.DS_Store # macOS
+Thumbs.db # Windows
+
+
