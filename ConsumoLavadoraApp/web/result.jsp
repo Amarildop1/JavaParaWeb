@@ -26,8 +26,7 @@
             <a href="index.jsp" class="back-button">Calcular Novamente</a>
         </div>
 
-        <footer> 
-            <p> 2025 &copy; Amarildo </p>
-        </footer>
+        <%-- Inclusão do rodapé --%>
+        <%@include file="footer.jsp"%>
     </body>
 </html>

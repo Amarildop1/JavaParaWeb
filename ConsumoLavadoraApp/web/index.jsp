@@ -19,7 +19,6 @@
             form { display: flex; flex-direction: column; align-items: center;}
             .nomeUsuario{ display: flex; flex-direction: row; justify-content: center; align-items: center; }
             .nomeUsuario input{ width: 220px; margin-left: 15px; }
-            footer{ text-align: center; }
         </style>
     </head>
     <body>
@@ -61,8 +60,7 @@
             </form>
         </div>
 
-        <footer> 
-            <p> 2025 &copy; Amarildo </p>
-        </footer>
+        <%-- Inclusão do rodapé --%>
+        <%@include file="footer.jsp"%>
     </body>
 </html>
