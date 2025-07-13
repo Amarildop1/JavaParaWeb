@@ -17,11 +17,17 @@
     <body>
         <div class="container">
             <h1>Resultados do Consumo Anual</h1>
+            <hr>
+            <br>
             <p><strong>Nome do usuário:</strong> <%= request.getAttribute("userName")%></p>
             <p><strong>Valor total gasto no ano:</strong> <%= request.getAttribute("totalConsumption")%>W</p>
             <p><strong>Mês com Maior consumo:</strong> <%= request.getAttribute("maxMonth")%></p>
             <p><strong>Mês com Menor consumo:</strong> <%= request.getAttribute("minMonth")%></p>
             <a href="index.jsp" class="back-button">Calcular Novamente</a>
         </div>
+
+        <footer> 
+            <p> 2025 &copy; Amarildo </p>
+        </footer>
     </body>
 </html>

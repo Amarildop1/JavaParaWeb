@@ -19,6 +19,7 @@
             form { display: flex; flex-direction: column; align-items: center;}
             .nomeUsuario{ display: flex; flex-direction: row; justify-content: center; align-items: center; }
             .nomeUsuario input{ width: 220px; margin-left: 15px; }
+            footer{ text-align: center; }
         </style>
     </head>
     <body>
@@ -40,7 +41,7 @@
                     <label for="userName" id="lblNomeUsuario">Nome do Usuário:</label>
                     <input type="text" id="userName" name="userName" required autofocus placeholder="Digite seu nome aqui..."><br>
                 </div>
-                
+
                 <h3>Informe o Consumo Mensal (em Watts):</h3>
                 <%
                     // Array com os meses
@@ -59,5 +60,9 @@
                 <input type="submit" value="Calcular Consumo">
             </form>
         </div>
+
+        <footer> 
+            <p> 2025 &copy; Amarildo </p>
+        </footer>
     </body>
 </html>
